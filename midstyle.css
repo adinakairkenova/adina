@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000 url('image/back.jpg');
+    color: #fff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #080808;
+}
+
+header h1 {
+    font-size: 24px;
+    color: rgb(97, 24, 24);
+}
+
+header nav a {
+    color: rgb(103, 28, 28);
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.intro, .why-us, .gallery, .services, .contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.intro h2, .why-us h2, .gallery h2, .services h2, .contact h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.intro p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: rgb(67, 16, 16);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+ .image img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.why-us .reasons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.why-us .reason {
+    max-width: 250px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.gallery-images img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.services .service {
+    display: inline-block;
+    margin: 15px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.contact button {
+    width: 100%;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: rgb(109, 29, 29);
+    text-decoration: none;
+}
